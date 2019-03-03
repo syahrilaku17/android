@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Latihan Website </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1 align="center"> Header </h1>
+        </div>
+        <div id="sidebar">
+            <div id="box1"> <h1 align="center"> MENU </h1></div>
+            <div id="box2"><h1 align="center"> MENU </h1></div>
+            <div id="box3"><h1 align="center"> MENU </h1></div>
+        </div>
+        <div id="content">
+                <form name="form" action="" method="POST">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="nama_lengkap" class="kanan"> Nama Lengkap</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" name="nama_lengkap" id="nama_lengkap" class="kiri"> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="umur" class="kanan"> Umur </label>
+                            </div>
+                            <div class="col-75">
+                                <input type="number" name="umur" id="umur"class="kiri"> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email"class="kanan"> Email </label>
+                            </div>
+                            <div class="col-75">
+                                <input type="email" name="email" id="email"class="kiri">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="jenis_kelamin"class="kanan"> Jenis Kelamin : </label>
+                            </div>
+                            <div class="col-75">
+                                <input type="radio" name="jenis_kelamin" value="pria" id="jenis_kelamin"class="kiri"> Pria
+                                <input type="radio" name="jenis_kelamin" value="wanita" id="jenis_kelamin"class="kiri"> Wanita 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="pekerjaan" class="kanan"> Pekerjaan </label>
+                            </div>
+                            <div class="col-75">
+                                 <select name="pekerjaan" id="pekerjaan"class="kiri">
+                                    <option value=""selected> ====================================================== Pilih Pekerjaan Anda ====================================================== </option>
+                                    <option value="pns"> PNS </option>
+                                    <option value="wiraswasta" > wiraswasta </option>
+                                    <option value="karyawan"> karyawan </option>
+                                    <option value="ibu_rumah_tangga" > Ibu Rumah Tanggga </option>
+                                </select>  
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="alamat"class="kanan"> Alamat </label>
+                            </div>
+                            <div class="col-75">
+                                <textarea name="alamat" id="alamat" cols="30" rows="5"class="kiri"> Alamat </textarea> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button type="submit" name="kirim" value="kirim"> Kirim </button>
+                        </div>
+                    </form>
+        </div>
+        <div id="footer">
+            <p align="center"> Copyright &copy; 2019 developed By Syahril Irfani Fattah </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+body{
+    background-image: url("images/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    height: 150px;
+    width: auto;
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 10px  10px solid black;
+    border-radius: 20px 20px 0px 0px;
+}
+nav{
+    height: 500px;
+    width: 74%;
+    background-color: transparent;
+    border : 1px solid white;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+aside{
+    margin-top: 10px;
+    height: 500px;
+    width: 24%;
+    float: left;
+    background-color: transparent;
+    border : 1px solid white;
+}
+footer{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    border : 1px solid white;
+    clear: both;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;   
+}
+a:hover{
+    background-color: burlywood;
+}
+#menu{
+    background-color: transparent;
+    border : 1px solid white;
+    height: 50px;
+    width: auto ;
+    margin: 10px;
+    text-align: center;
+
+    text-align: center;
+}
+#myCanvas{
+    border : 1px solid white;
+    margin: 10px;
+}
+#text-header{
+    text-align: center;
+    background-color: transparent; 
+    font-size: 25px;
+    color: greenyellow;
+    text-shadow: 10px 10px 10px solid black;
+}
+table {
+    border-collapse: collapse;
+    padding: 2px;
+}
+.table-development-judul{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.table-development-menu{
+    text-align: center;
+}
+.table-development-kiri{
+    text-align: center;
+}
+table.tabelbagianTiga{
+    text-align: center;
+}
+.menu:hover{
+    background-color: yellow;
+}

@@ -1,0 +1,19 @@
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+#sidebar{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    float: left;
+    margin: 120px 0px 50px 50px;
+}
+#content{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    float: left;
+    margin: 120px 50px 50px 50px;
+}

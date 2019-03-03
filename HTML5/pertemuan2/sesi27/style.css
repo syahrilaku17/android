@@ -1,0 +1,30 @@
+body{
+    background-image: url("background.jpg");
+    background-size: 100%;
+    height: auto;
+    width: auto;
+}
+input, label{
+    float: left;
+    padding: 3PX;
+    margin: 3PX 3PX 3PX 65PX;
+    clear: both;
+    text-align: center;
+    line-height: 20px;
+    /* align : center */
+    /* display: inline-block;
+    width: auto;
+    line-height: auto; */
+}
+#wrap{
+    height: 300px;
+    width: 300px;
+    background-color: #273447;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 50px black;
+    margin: 150px 500px 10px 500px;
+    padding: 10px 10px 10px 10px;
+}
+#masukan{
+    float: left;
+}

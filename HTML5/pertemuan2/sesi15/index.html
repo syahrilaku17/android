@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Program Hitung Keliling dan luas </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var panjang, lebar, luas, input;
+            var nilai = 2;
+            input = prompt(" Tulis Apa yang akan anda Hitung!");
+            if (input == "luas") {
+                panjang = prompt("Masukan panjang persegi ...");
+                lebar = prompt("Masukan lebar persegi ...");
+                luas = panjang * lebar;
+                alert("Luas Persegi adalah " + luas);
+            } else if (input == "keliling"){
+                panjang = prompt("Masukan panjang persegi ...");
+                lebar = prompt("Masukan lebar persegi ...");
+                // luas = panjang + lebar ;
+                keliling =  ( 2 * panjang )  + ( 2 * lebar);
+                alert("Luas Persegi adalah " + keliling);
+            }else{
+                alert("Fatal Error");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,187 @@
+<!-- Standarisasi HTML 5 -->
+<!DOCTYPE html> 
+<html>
+    <head>
+        <!-- Standarisasi Browser -->
+        <meta charset="UTF-8"> 
+        <title> Latihan 1 </title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            h1{
+                color: aqua;
+            }
+            table, tr, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px 10px 10px 10px;
+                text-align: center;
+            }
+            table thead{
+                background-color: aqua;
+            }
+            input[type=text],
+            input[type=number],
+            input[type=email],select, textarea{
+                width: 100%;
+                padding : 12px;
+                border: 1px solid gray;
+                border-radius: 4px;
+                box-sizing: border-box;
+                resize: vertical;
+            }
+            label{
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+            }
+            button[type=submit]{
+                background-color: green;
+                color: black;
+                padding: 12px 20px;
+                border:none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+            }
+            .col-25{
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+            }
+            .col-75{
+                float: left;
+                width: 75%;
+                margin-top: 6px;
+            }
+            .row:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Heading -->
+        <!-- <h1> HEADER H1 </h1>
+        <h2> HEADER H2 </h2>
+        <h3> HEADER H3 </h3>
+        <h4> HEADER H4 </h4>
+        <h5> HEADER H5 </h5>
+        <h6> HEADER H6 </h6> -->
+        <form name="form" action="" method="POST">
+            <div class="row">
+                <div class="col-25">
+                    <label for="nama_lengkap" class="kanan"> Nama Lengkap</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="nama_lengkap" id="nama_lengkap" class="kiri"> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="umur" class="kanan"> Umur </label>
+                </div>
+                <div class="col-75">
+                    <input type="number" name="umur" id="umur"class="kiri"> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email"class="kanan"> Email </label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="email" id="email"class="kiri">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="jenis_kelamin"class="kanan"> Jenis Kelamin : </label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" name="jenis_kelamin" value="pria" id="jenis_kelamin"class="kiri"> Pria
+                    <input type="radio" name="jenis_kelamin" value="wanita" id="jenis_kelamin"class="kiri"> Wanita 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="pekerjaan" class="kanan"> Pekerjaan </label>
+                </div>
+                <div class="col-75">
+                     <select name="pekerjaan" id="pekerjaan"class="kiri">
+                        <option value=""selected> ====================================================== Pilih Pekerjaan Anda ====================================================== </option>
+                        <option value="pns"> PNS </option>
+                        <option value="wiraswasta" > wiraswasta </option>
+                        <option value="karyawan"> karyawan </option>
+                        <option value="ibu_rumah_tangga" > Ibu Rumah Tanggga </option>
+                    </select>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="alamat"class="kanan"> Alamat </label>
+                </div>
+                <div class="col-75">
+                    <textarea name="alamat" id="alamat" cols="30" rows="5"class="kiri"> Alamat </textarea> 
+                </div>
+            </div>
+            <div class="row">
+                <button type="submit" name="kirim" value="kirim"> Kirim </button>
+            </div>
+        </form>
+        <!-- <table>
+            <thead>
+                <tr>
+                    <td>No. </td>
+                    <td>Nama </td>
+                    <td>Kelas </td>
+                    <td colspan="2"> Kehadiran </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td rowspan="6">Latihan</td>
+                    <td>2</td>
+                    <td>Y</td>
+                    <td rowspan="2">T</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td rowspan="4">Y</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>T</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>T</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>2</td>
+                    <td rowspan="2">T</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>Y</td>
+                </tr>
+                
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> No </td>
+                    <td> Nama </td>
+                    <td> Kelas </td>
+                    <td colspan="2"> Kehadiran </td>
+                </tr>
+            </tfoot>
+        </table> -->
+    </body>
+</html>

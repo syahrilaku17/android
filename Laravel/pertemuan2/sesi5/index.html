@@ -1,0 +1,26 @@
+<h1>Calculate</h1><br>
+    Numbers: <input type="text" value="1,2,5" name="fill" id="fill"><br><br>
+    Operation:
+    <select name="select" id="select">
+      <option value="plus">+</option>
+      <option value="min">-</option>
+      <option value="keer">*</option>
+      <option value="delen">/</option>
+    </select><br><br>
+    <button onclick="count()">Count</button>
+
+    <div id="answer"></div>
+<script>
+function count() {
+    var arr = document.getElementById('fill').value.split(",");
+    var operations = {
+      '+' : arr.reduce((a, b) => parseFloat(a) + parseFloat(b)),
+      '-' : arr.reduce((a, b) => parseFloat(a) - parseFloat(b)),
+      '*' : arr.reduce((a, b) => parseFloat(a) * parseFloat(b)),
+      '/' : arr.reduce((a, b) => parseFloat(a) / parseFloat(b))
+    }
+    var answer = operations[document.getElementById('select').selectedOptions[0].text];
+   
+    document.getElementById('answer').innerHTML = answer;
+ }
+</script>

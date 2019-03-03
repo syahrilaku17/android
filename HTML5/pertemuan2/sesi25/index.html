@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Function JavaScript </title>
+    </head>
+    <body>
+        <select name="pilihan" id="mySelect" onchange="myFunction()">
+        <option value="Mangga"> Mangga </option>
+        <option value="Jeruk"> Jeruk </option>
+        <option value="Mangga"> Mangga </option>
+        <option value="Apel">Apel </option>
+        <option value="Manggis"> Manggis </option>
+    </select>
+        <p id="hasil"></p>
+        <script type="text/javascript">
+            // Event Java Script
+            function myFunction(){
+                var x = document.getElementById("mySelect").value;
+                document.getElementById("hasil").innerHTML = " You Selected "+ x;
+            }
+        </script>
+    </body>
+</html>

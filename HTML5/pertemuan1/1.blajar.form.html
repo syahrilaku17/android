@@ -1,0 +1,89 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title> Latihan Form </title>
+        </head>
+        <body>
+            <table>
+                <form action="" name="form" method="POST">
+                    <tr>
+                        <td> <label for="nama"> Nama  </label> </td>
+                        <td> : </td>
+                        <td> <input type="text" name="nama" id="nama" placeholder="Masukan nama anda..."> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="nik"> NIK </label> </td>
+                        <td> : </td>
+                        <td> <input type="number" name="nik" id="nik" placeholder="Masukan nik anda..."> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="nkk"> NKK </label></td>
+                        <td> : </td>
+                        <td> <input type="number" name="nkk" id="nkk" placeholder="Masukan nkk anda..."></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="email"> E-mail  </label></td>
+                        <td> : </td>
+                        <td><input type="email" name="email" id="email" placeholder="Masukan email anda..."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nama_wali"> Nama Wali </label></td>
+                        <td> : </td>
+                        <td><input type="text" name="nama_wali" id="nama_wali" placeholder="Masukan nama wali anda..."></td>
+                    </tr>
+                    <tr>
+                        <td>  <label for="no_hp"> No Hp </label></td>
+                        <td> : </td>
+                        <td> <input type="number" name="no_hp" id="no_hp" placeholder="Masukan No Hp anda..."></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="umur"> Umur </label></td>
+                        <td> : </td>
+                        <td><input type="number" name="umur" id="umur" placeholder="Masukan umur anda..."></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="jenis_kelamin"> Jenis Kelamin </label></td>
+                        <td> : </td>
+                        <td> <input type="radio" name="jenis_kelamin" value="pria"> Laki-laki
+                             <input type="radio" name="jenis_kelamin" value="wanita"> Perempuan<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pekerjaan"> Pekerjaan </label></td>
+                        <td> : </td>
+                        <td>
+                            <select name="pekerjaan" id="pekerjaa">
+                                <option value=""> === Pilih Pekerjaan === </option>
+                                <option value="mahasiswa"> Mahasiswa </option>
+                                <option value="dosen"> Dosen </option>
+                                <option value="staf"> Staf </option>
+                                <option value="satpam"> Satpam </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="hoby"> Hoby </label></td>
+                        <td> : </td>
+                        <td><input type="checkbox" name="hoby" value="Ngoding"> Ngoding
+                            <input type="checkbox" name="hoby" value="Ngegame"> Ngegame
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat"> Alamat  </label></td>
+                        <td> : </td>
+                        <td><textarea name="alamat" id="alamat" cols="30" rows="5"> Masukan Alamat Anda...</textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="alasan"> Alasan Bergabung  </label></td>
+                        <td> : </td>
+                        <td><textarea name="alasan" id="alasan" cols="30" rows="5"> Tulis Alasan Anda Bergabung dengan Kami...</textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center"> <button type="submit" name="kirim"> Kirim !</button> <button type="reset"> Reset !</button></td>
+                    </tr>
+                    
+                </form>
+            </table>
+        </body>
+    </html>

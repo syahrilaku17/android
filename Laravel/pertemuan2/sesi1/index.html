@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Belajar Javascript</title>
+    </head>
+    <body>
+        <script>
+            var nama, age, isRegistered, keterampilan, skills;
+            
+            nama = "Syahril Irfani Fattah";
+
+            age = 2019-2000;
+            isRegistered = true;
+            names = new Array("Syahril", "Irfani", "Fattah");
+            skills = ["dasar", "pemrograman", "javascript"];
+            var obj = document.querySelector("h1");
+
+            document.write("Nama :" +nama+ "<br>");
+            document.write("Umur :" +age+ "<br>");
+            document.write("Terdaftar ? :" +isRegistered+ "<br>");
+            document.write("Nama Belakang :" +names[2]+ "<br>");
+            document.write("Skill :" +skills[2]+ "<br>");
+            
+            if (isRegistered === true) {
+                document.write("thank  you for your registration" + name);;
+            }else{
+                document.write('You must registered');
+            }
+
+            if(isRegistered === true && age >= 27){
+                document.write("you are allowed to enter this room");
+            }else{
+                document.write("you are no allowed to enter this room. please check your administrator");
+            }
+        </script>
+    </body>
+</html>
